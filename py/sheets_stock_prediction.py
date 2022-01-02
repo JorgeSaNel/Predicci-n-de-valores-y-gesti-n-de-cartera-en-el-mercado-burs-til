@@ -9,7 +9,8 @@ Original file is located at
 # Importación
 """
 
-!pip install yfinance
+# Librería Yahoo Finance
+!pip install yfinance
 
 import pandas as pd
 import yfinance as yf
@@ -195,15 +196,14 @@ from random import randint
 from time import sleep
 
 # Nombre de la hoja donde escribir los datos
-# sheetName = 'Estudio Cartera'
-sheetName = 'SP_500'
+sheetName = 'Estudio Cartera'
+# sheetName = 'SP_500'
 
 worksheet, stock_wallet = OpenSheet(sheetName)
-last_company = 191
+last_company = 0
 row = last_company + 2
 for company in stock_wallet.iloc[last_company:]['Ticker']:
     wait_time = randint(7,30)
-    print(wait_time)
     sleep(wait_time)
     company = company.replace(".", "-")
     
