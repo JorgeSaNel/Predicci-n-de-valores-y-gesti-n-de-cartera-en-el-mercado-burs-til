@@ -10,5 +10,5 @@ Durante el desarrollo de este proyecto se han logrado los siguientes objetivos:
 
 
 ## Autor
-Jorge Santos Neila (JorgeSaNel)
+Jorge Santos Neila (JorgeSaNel) <br/>
 email: `jorgesantosneila@gmail.com`
